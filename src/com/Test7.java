@@ -11,7 +11,7 @@ public class Test7 {
 		int nextNumber = 1;
 		try {
 			if (lastId != null && lastId.startsWith("FLM-")) {
-				int i ;
+				int i =0;
 				System.out.println(i);
 				String numberPart = lastId.substring(4);
 				nextNumber = Integer.parseInt(numberPart) + 1;
